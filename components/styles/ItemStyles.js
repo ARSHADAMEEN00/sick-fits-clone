@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Item = styled.div`
   background: white;
@@ -9,7 +9,7 @@ const Item = styled.div`
   flex-direction: column;
   img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
   }
   p {
@@ -27,7 +27,8 @@ const Item = styled.div`
     grid-gap: 1px;
     background: var(--lightGray);
     & > * {
-      background: white;
+      background: lightcoral;
+      color: whitesmoke;
       border: 0;
       font-size: 1rem;
       padding: 1rem;
